@@ -1,1 +1,1 @@
-## Setup for local and dev environments useful for improving monitoring and alerting. ##
+## Setup for local and dev environments useful for improving observability. ##
