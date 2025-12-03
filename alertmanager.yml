@@ -1,0 +1,13 @@
+global:
+  resolve_timeout: 5m
+
+route:
+  receiver: 'test-email'
+
+receivers:
+  - name: 'test-email'
+    email_configs:
+      - to: 'almir@example.com'
+        from: 'grafana@example.com'
+        smarthost: 'mailhog:1025'  # Using Mailhog for local testing
+        send_resolved: true
